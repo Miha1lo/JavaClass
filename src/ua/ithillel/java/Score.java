@@ -3,12 +3,12 @@ package ua.ithillel.java;
 public class Score {
 
     String category;
-    int[] statistic;
+    double[] statistic;
 
     {
-        statistic = new int[10];
+        statistic = new double[10];
         for (int i = 0; i < statistic.length; i++) {
-            statistic[i] = (int) (Math.random() * 10);
+            statistic[i] = Math.random() * 10;
         }
     }
 
