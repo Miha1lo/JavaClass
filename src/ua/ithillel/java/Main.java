@@ -1,8 +1,5 @@
 package ua.ithillel.java;
 
-import java.sql.Array;
-import java.util.Arrays;
-
 import java.util.Arrays;
 
 public class Main {
